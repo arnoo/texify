@@ -9,10 +9,14 @@ all: pdf
 
 pdf: $(addsuffix .pdf,$(TARGETS))
 
-%.pdf: %.tex $(MONTHS)
+%.tex: %_doc.tex
+	cat ../../formats/remarkable.tex $< > $@
+
+%.pdf: %.tex
 	OSFONTDIR=$(FONTSDIR) TEXINPUTS=$(TEXINPUTS) lualatex -shell-escape -interaction=$(LATEX_INTERACTION) $<
 	rm -f $<
 	OSFONTDIR=$(FONTSDIR) TEXINPUTS=$(TEXINPUTS) lualatex -shell-escape -interaction=$(LATEX_INTERACTION) $<
+	rm -f $<
 
 clean:
 	rm -f *.pdf *.ps *.aux *.log *.out *.lol
