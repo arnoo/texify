@@ -1,0 +1,259 @@
+\documentclass[paper=a5,pagesize=pdftex,fontsize=15pt,headinclude=on,twoside=off]{scrbook}
+\usepackage[head=0cm,foot=0.5cm,top=0.5cm,bottom=0.5cm,left=0.7cm,right=0.2cm]{geometry}
+\setlength{\parskip}{0pt}
+\linespread{0.9}
+   
+\usepackage{xcolor}
+\usepackage{ifthen}
+\usepackage{bigfoot}
+\usepackage{ragged2e}
+\usepackage{needspace}
+\usepackage[utf8x]{inputenc}
+\usepackage[french]{babel}
+\usepackage[defaultlines=4,all]{nowidow} % Avoid widow lines (a line by itself on a page at the end of a chapter)
+\usepackage[protrusion=true,final]{microtype}
+   
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{lettrine}
+\renewcommand{\LettrineFontHook}{\lettrinefont}
+\usepackage{titlesec}
+\usepackage{fourier-orns}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{EB Garamond}
+
+\newcommand{\psalmdagger}{{\color{red}\textbf{\dagger}}\\*}
+\newcommand{\psalmstar}{{\color{red}\textbf{\ast}}\\*}
+\newcommand{\negphantom}[1]{\settowidth{\dimen0}{#1}\hspace*{-\dimen0}}
+\newcommand{\versenb}[1]{\vspace{10pt}~\negphantom{~${}^{#1}$~}${}^{#1}$~}
+\newcommand{\psalm}[3][Psaume]{
+   \contstop
+   \clearpage
+   \vspace{-15pt}
+   \section{#1 #2: #3}
+   \vspace{10pt}
+   \thispagestyle{empty}
+   \contgo
+}
+\newcommand{\psalmintro}[1]{\vspace{-20pt}\center#1\\\vspace{10pt}}
+
+\usepackage{titlesec}
+\usepackage[extramarks]{titleps}
+\newfontfamily\secheadfont{EB Garamond}
+\newcommand{\secheadstyle}{\vspace{-1cm}\secheadfont\large\center\textsc}
+\titleformat{\section}[block]
+  {}
+  {}{0pt}
+  {\secheadstyle}
+
+\usepackage[allpages]{continue}
+\renewcommand*{\flagcont}{{\color{red}\hookrightarrow\hspace{1cm}}}
+    
+\graphicspath{{images}} 
+\usepackage[hyperindex]{hyperref}
+\title{Psautier Français / Latin - AELF / Vulgata Clementina}
+\begin{document}
+\pagestyle{empty}
+\hspace{0pt}
+\vfill
+\begin{center}
+  \begin{minipage}{0.7\textwidth}
+    \begin{center}
+      {\headerfont\Huge PSAUTIER} \\
+    \end{center}
+  \end{minipage}
+  \\
+  \vspace{0.1\pageheight}
+  \includegraphics[height=0.4\pageheight]{ofielcatolico/Eucaristia-Coroa.png}
+\end{center}
+\vfill
+\hspace{0pt}
+\newpage
+
+\input{textes/psaume_001.tex}
+\input{textes/psaume_002.tex}
+\input{textes/psaume_003.tex}
+\input{textes/psaume_004.tex}
+\input{textes/psaume_005.tex}
+\input{textes/psaume_006.tex}
+\input{textes/psaume_007.tex}
+\input{textes/psaume_008.tex}
+\input{textes/psaume_009A.tex}
+\input{textes/psaume_009B.tex}
+\input{textes/psaume_010.tex}
+\input{textes/psaume_011.tex}
+\input{textes/psaume_012.tex}
+\input{textes/psaume_013.tex}
+\input{textes/psaume_014.tex}
+\input{textes/psaume_015.tex}
+\input{textes/psaume_016.tex}
+\input{textes/psaume_017.tex}
+\input{textes/psaume_018A.tex}
+\input{textes/psaume_018B.tex}
+\input{textes/psaume_019.tex}
+\input{textes/psaume_020.tex}
+\input{textes/psaume_021.tex}
+\input{textes/psaume_022.tex}
+\input{textes/psaume_023.tex}
+\input{textes/psaume_024.tex}
+\input{textes/psaume_025.tex}
+\input{textes/psaume_026.tex}
+\input{textes/psaume_027.tex}
+\input{textes/psaume_028.tex}
+\input{textes/psaume_029.tex}
+\input{textes/psaume_030.tex}
+\input{textes/psaume_031.tex}
+\input{textes/psaume_032.tex}
+\input{textes/psaume_033.tex}
+\input{textes/psaume_034.tex}
+\input{textes/psaume_035.tex}
+\input{textes/psaume_036.tex}
+\input{textes/psaume_037.tex}
+\input{textes/psaume_038.tex}
+\input{textes/psaume_039.tex}
+\input{textes/psaume_040.tex}
+\input{textes/psaume_041.tex}
+\input{textes/psaume_042.tex}
+\input{textes/psaume_043.tex}
+\input{textes/psaume_044.tex}
+\input{textes/psaume_045.tex}
+\input{textes/psaume_046.tex}
+\input{textes/psaume_047.tex}
+\input{textes/psaume_048.tex}
+\input{textes/psaume_049.tex}
+\input{textes/psaume_050.tex}
+\input{textes/psaume_051.tex}
+\input{textes/psaume_052.tex}
+\input{textes/psaume_053.tex}
+\input{textes/psaume_054.tex}
+\input{textes/psaume_055.tex}
+\input{textes/psaume_056.tex}
+\input{textes/psaume_057.tex}
+\input{textes/psaume_058.tex}
+\input{textes/psaume_059.tex}
+\input{textes/psaume_060.tex}
+\input{textes/psaume_061.tex}
+\input{textes/psaume_062.tex}
+\input{textes/psaume_063.tex}
+\input{textes/psaume_064.tex}
+\input{textes/psaume_065.tex}
+\input{textes/psaume_066.tex}
+\input{textes/psaume_067.tex}
+\input{textes/psaume_068.tex}
+\input{textes/psaume_069.tex}
+\input{textes/psaume_070.tex}
+\input{textes/psaume_071.tex}
+\input{textes/psaume_072.tex}
+\input{textes/psaume_073.tex}
+\input{textes/psaume_074.tex}
+\input{textes/psaume_075.tex}
+\input{textes/psaume_076.tex}
+\input{textes/psaume_077.tex}
+\input{textes/psaume_078.tex}
+\input{textes/psaume_079.tex}
+\input{textes/psaume_080.tex}
+\input{textes/psaume_081.tex}
+\input{textes/psaume_082.tex}
+\input{textes/psaume_083.tex}
+\input{textes/psaume_084.tex}
+\input{textes/psaume_085.tex}
+\input{textes/psaume_086.tex}
+\input{textes/psaume_087.tex}
+\input{textes/psaume_088.tex}
+\input{textes/psaume_089.tex}
+\input{textes/psaume_090.tex}
+\input{textes/psaume_091.tex}
+\input{textes/psaume_092.tex}
+\input{textes/psaume_093.tex}
+\input{textes/psaume_094.tex}
+\input{textes/psaume_095.tex}
+\input{textes/psaume_096.tex}
+\input{textes/psaume_097.tex}
+\input{textes/psaume_098.tex}
+\input{textes/psaume_099.tex}
+\input{textes/psaume_100.tex}
+\input{textes/psaume_101.tex}
+\input{textes/psaume_102.tex}
+\input{textes/psaume_103.tex}
+\input{textes/psaume_104.tex}
+\input{textes/psaume_105.tex}
+\input{textes/psaume_106.tex}
+\input{textes/psaume_107.tex}
+\input{textes/psaume_108.tex}
+\input{textes/psaume_109.tex}
+\input{textes/psaume_110.tex}
+\input{textes/psaume_111.tex}
+\input{textes/psaume_112.tex}
+\input{textes/psaume_113A.tex}
+\input{textes/psaume_113B.tex}
+\input{textes/psaume_114.tex}
+\input{textes/psaume_115.tex}
+\input{textes/psaume_116.tex}
+\input{textes/psaume_117.tex}
+\input{textes/psaume_118.tex}
+\input{textes/psaume_119.tex}
+\input{textes/psaume_120.tex}
+\input{textes/psaume_121.tex}
+\input{textes/psaume_122.tex}
+\input{textes/psaume_123.tex}
+\input{textes/psaume_124.tex}
+\input{textes/psaume_125.tex}
+\input{textes/psaume_126.tex}
+\input{textes/psaume_127.tex}
+\input{textes/psaume_128.tex}
+\input{textes/psaume_129.tex}
+\input{textes/psaume_130.tex}
+\input{textes/psaume_131.tex}
+\input{textes/psaume_132.tex}
+\input{textes/psaume_133.tex}
+\input{textes/psaume_134.tex}
+\input{textes/psaume_135.tex}
+\input{textes/psaume_136.tex}
+\input{textes/psaume_137.tex}
+\input{textes/psaume_138.tex}
+\input{textes/psaume_139.tex}
+\input{textes/psaume_140.tex}
+\input{textes/psaume_141.tex}
+\input{textes/psaume_142.tex}
+\input{textes/psaume_143.tex}
+\input{textes/psaume_144.tex}
+\input{textes/psaume_145.tex}
+\input{textes/psaume_146.tex}
+\input{textes/psaume_147.tex}
+\input{textes/psaume_148.tex}
+\input{textes/psaume_149.tex}
+\input{textes/psaume_150.tex}
+
+\input{textes/cantique_d_azarias.tex}
+\input{textes/cantique_d_ezékiel.tex}
+\input{textes/cantique_des_trois_enfants.tex}
+\input{textes/cantique_de_david.tex}
+\input{textes/cantique_de_tobie.tex}
+\input{textes/cantique_de_judith.tex}
+\input{textes/cantique_de_ben_sirac_le_sage.tex}
+\input{textes/cantique_d_Ézékias.tex}
+\input{textes/cantique_d_anne.tex}
+\input{textes/cantique_d_habaquq.tex}
+\input{textes/cantique_de_moïse.tex}
+\input{textes/cantique_d_isaïe.tex}
+\input{textes/cantique_de_jérémie.tex}
+\input{textes/cantique_de_la_sagesse.tex}
+\input{textes/cantique_de_marie.tex}
+\input{textes/cantique_de_zacharie.tex}
+\input{textes/cantique_de_symeon.tex}
+
+\contstop
+\newpage
+Mise en page et typographie destinées aux tablettes et liseuses format~A5, par Arnaud Bétrémieux.
+
+Contact: arnaud@btmx.fr.
+
+Retrouvez d'autres ouvrages sur https://github.com/arnoo/
+
+\vspace{2cm}
+Textes © AELF
+
+\vspace{2cm}
+Image de couverture de ``O Fiel Catolico'' en usage libre.
+Source: https://www.ofielcatolico.com.br/2010/01/imagens-catolicas-exclusivas-para-uso.html
+\end{document}

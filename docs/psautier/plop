@@ -1,0 +1,17 @@
+sed -i -e  '1 s/antique]{[0-9]\+}/antique]{1}/'  textes/cantique_d_azarias.tex              
+sed -i -e  '1 s/antique]{[0-9]\+}/antique]{2}/'  textes/cantique_d_ezékiel.tex                
+sed -i -e  '1 s/antique]{[0-9]\+}/antique]{3}/'  textes/cantique_des_trois_enfants.tex        
+sed -i -e  '1 s/antique]{[0-9]\+}/antique]{4}/'  textes/cantique_de_david.tex                 
+sed -i -e  '1 s/antique]{[0-9]\+}/antique]{5}/'  textes/cantique_de_tobie.tex                 
+sed -i -e  '1 s/antique]{[0-9]\+}/antique]{6}/'  textes/cantique_de_judith.tex                
+sed -i -e  '1 s/antique]{[0-9]\+}/antique]{7}/'  textes/cantique_de_ben_sirac_le_sage.tex     
+sed -i -e  '1 s/antique]{[0-9]\+}/antique]{8}/'  textes/cantique_d_Ézékias.tex                
+sed -i -e  '1 s/antique]{[0-9]\+}/antique]{9}/'  textes/cantique_d_anne.tex                   
+sed -i -e  '1 s/antique]{[0-9]\+}/antique]{10}/' textes/cantique_d_habaquq.tex                
+sed -i -e  '1 s/antique]{[0-9]\+}/antique]{11}/' textes/cantique_de_moïse.tex                 
+sed -i -e  '1 s/antique]{[0-9]\+}/antique]{12}/' textes/cantique_d_isaïe.tex                  
+sed -i -e  '1 s/antique]{[0-9]\+}/antique]{13}/' textes/cantique_de_jérémie.tex               
+sed -i -e  '1 s/antique]{[0-9]\+}/antique]{14}/' textes/cantique_de_la_sagesse.tex            
+sed -i -e  '1 s/antique]{[0-9]\+}/antique]{15}/' textes/cantique_de_marie.tex                 
+sed -i -e  '1 s/antique]{[0-9]\+}/antique]{16}/' textes/cantique_de_zacharie.tex              
+sed -i -e  '1 s/antique]{[0-9]\+}/antique]{17}/' textes/cantique_de_symeon.tex                
