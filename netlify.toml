@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/:slug"
+  to = "/viewer/web/viewer.html?doc=:slug"
+  status = 200
+  force = true
