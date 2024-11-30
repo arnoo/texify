@@ -43,6 +43,11 @@ See https://github.com/adobe-type-tools/cmap-resources
     #viewerContainer {
       background-color: white;
     }
+
+    #mainContainer {
+      min-width: auto !important;
+    }
+
     #sidebarContainer {
       top: 40px;
     }
@@ -112,7 +117,7 @@ See https://github.com/adobe-type-tools/cmap-resources
   document.addEventListener("webviewerloaded", () => {
     const urlParams = new URLSearchParams(window.location.search);
     const doc = urlParams.get('doc');
-    const format = window.screen.width < 400 ? 'phone_continuous' : 'tablet_continuous';
+    const format = window.innerWidth < 400 ? 'phone_continuous' : 'tablet_continuous';
     window.PDFViewerApplicationOptions.set("defaultUrl",
 	                                   doc
 	                                     ? `/docs/${doc}/${doc}_${format}.pdf`

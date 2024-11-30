@@ -9,3 +9,6 @@ all:
 	    FORMAT_FILE=$$format make -C "$$doc"; \
 	  done \
 	done
+
+serve:
+	python -m http.server 8000

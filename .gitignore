@@ -3,3 +3,6 @@
 *.toc
 *.pdf
 *.out
+
+# Local Netlify folder
+.netlify
