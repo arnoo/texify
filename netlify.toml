@@ -3,3 +3,18 @@
   to = "/viewer/web/viewer.html?doc=:slug"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/*.tex"
+  to = "/"
+  status = 404
+
+[[redirects]]
+  from = "/*.log"
+  to = "/"
+  status = 404
+
+[[redirects]]
+  from = "/*.aux"
+  to = "/"
+  status = 404

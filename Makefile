@@ -12,3 +12,6 @@ all:
 
 serve:
 	python -m http.server 8000
+
+deploy:
+	netlify deploy -d . --prod
