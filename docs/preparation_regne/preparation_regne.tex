@@ -11,7 +11,6 @@
 \usepackage{needspace}
 \usepackage[utf8x]{inputenc}
 \usepackage[french]{babel}
-\usepackage[defaultlines=4,all]{nowidow} % Avoid widow lines (a line by itself on a page at the end of a chapter)
 \usepackage[protrusion=true,final]{microtype}
    
 \usepackage{fontspec}
@@ -54,21 +53,23 @@
 \author{Saint Louis-Marie Grignion de Montfort, ca. 1713}
 \begin{document}
 \pagestyle{empty}
-\hspace{0pt}
-\vfill
-\begin{center}
-  \begin{minipage}{0.7\textwidth}
-    \begin{center}
-      {\headerfont\Huge \thetitle} \\
-      \vspace{0.1\pageheight}
-      {\headerfont\Large \theauthor}
-    \end{center}
-  \end{minipage}
-  \\
-  \vspace{0.1\pageheight}
-  \includegraphics[height=0.4\pageheight]{th.jpg}
-\end{center}
-\vfill
+\resizebox{!}{0.9\pageheight}{
+  \hspace{0pt}
+  \vfill
+  \begin{center}
+    \begin{minipage}{0.7\textwidth}
+      \begin{center}
+        {\headerfont\Huge \thetitle} \\
+        \vspace{0.1\pageheight}
+        {\headerfont\Large \theauthor}
+      \end{center}
+    \end{minipage}
+    \\
+    \vspace{0.1\pageheight}
+    \includegraphics[height=0.4\pageheight]{th.jpg}
+  \end{center}
+  \vfill
+}
 \hspace{0pt}
 \newpage
 %\chapter{PRÉPARATION AU RÈGNE DE JÉSUS-CHRIST}
