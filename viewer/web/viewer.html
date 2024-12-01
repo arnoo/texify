@@ -28,10 +28,10 @@ See https://github.com/adobe-type-tools/cmap-resources
     <title>PDF.js viewer</title>
 
 <!-- This snippet is used in production (included from viewer.html) -->
-<link rel="resource" type="application/l10n" href="locale/locale.json">
-<script src="../build/pdf.mjs" type="module"></script>
+<link rel="resource" type="application/l10n" href="/viewer/web/locale/locale.json">
+<script src="/viewer/build/pdf.mjs" type="module"></script>
 
-    <link rel="stylesheet" href="viewer.css">
+    <link rel="stylesheet" href="/viewer/web/viewer.css">
     <style>
     #viewerContainer {
       inset: 0;
@@ -112,11 +112,11 @@ See https://github.com/adobe-type-tools/cmap-resources
     }
 </style>
 
-  <script src="viewer.mjs" type="module"></script>
+  <script src="/viewer/web/viewer.mjs" type="module"></script>
   <script>
   document.addEventListener("webviewerloaded", () => {
     const urlParams = new URLSearchParams(window.location.search);
-    const doc = urlParams.get('doc');
+    const doc = urlParams.get('livre');
     const format = window.innerWidth < 400 ? 'phone_continuous' : 'tablet_continuous';
     window.PDFViewerApplicationOptions.set("defaultUrl",
 	                                   doc

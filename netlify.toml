@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/:slug"
-  to = "/viewer/web/viewer.html?doc=:slug"
+  to = "/viewer/web/viewer.html"
   status = 200
   force = true
 
