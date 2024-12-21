@@ -1,7 +1,7 @@
 \setlength{\parskip}{0pt}
 \linespread{0.9}
    
-\usepackage[hyperindex]{hyperref}
+\usepackage[hidelinks,hyperindex]{hyperref}
 \usepackage{bookmark}
 \usepackage{enumitem}
 \usepackage{xcolor}
@@ -22,13 +22,14 @@
 \usepackage{fourier-orns}
 \defaultfontfeatures{Ligatures=TeX}
 \setmainfont{EB Garamond}
+\setcounter{tocdepth}{4}
 
 \makeatletter
  \newcommand{\linkdest}[1]{\Hy@raisedlink{\hypertarget{#1}{}}}
 \makeatother
 
 \newcommand{\negphantom}[1]{\settowidth{\dimen0}{#1}\hspace*{-\dimen0}}
-\newcommand{\versenb}[1]{\par \vspace{10pt}~\linkdest{#1}\negphantom{~${}^{#1}$~}{}^{\color{grey}#1}$~}
+\newcommand{\versenb}[1]{\par \vspace{10pt}~\linkdest{#1}\negphantom{~${}^{#1}$~}{}\hyperlink{#1}{^{\color{gray}#1}$~}}
 \newcommand{\argument}[2]{\linkdest{arg-#1}#2}
 \newcommand{\latin}[1]{\emph{#1}}
 
@@ -115,7 +116,7 @@ prêche, tout publie l'admirable Marie. Les neuf choeurs des anges, les hommes d
 religions, bons et mauvais, jusqu'aux diables, sont obligés de l'appeler bienheureuse, bon gré, mal gré, par la force
 de là vérité. Tous les anges dans les cieux lui crient incessamment, comme dit saint Bonaventure: \latin{Sancta, sancta,
 sancta Maria, Dei Genitrix et Virgo}; et lui offrent millions de millions de fois tous les jours la Salutation des anges:
-Ave, Maria, etc., en se prosternant devant elle, et lui demandant pour grâce de les honorer de quelques-uns de
+\latin{Ave, Maria}, etc., en se prosternant devant elle, et lui demandant pour grâce de les honorer de quelques-uns de
 ses commandements. Jusqu'à saint Michel [qui], dit saint Augustin, quoique le prince de toute la cour céleste, est
 le plus zélé à lui rendre et à lui faire rendre toutes sortes d'honneurs, toujours en attente pour avoir l'honneur
 d'aller, à sa parole, rendre service à quelqu'un de ses serviteurs.
@@ -125,7 +126,7 @@ nom. Point d'église sans autel en son honneur: point de contrée ni canton où 
 miraculeuses, où toutes sortes de maux sont guéris et toutes sortes de biens obtenus. Tant de confréries et
 congrégations en son honneur ! tant de religions sous son nom et sa protection ! tant de confrères et soeurs de
 toutes les confréries, et tant de religieux et religieuses de toutes les religions qui publient ses louanges et qui
-annoncent ses miséricordes! Il n'y a pas un petit enfant qui, en bégayant l'Ave Maria, ne la loue; il n'y a guère de
+annoncent ses miséricordes! Il n'y a pas un petit enfant qui, en bégayant l'\latin{Ave Maria}, ne la loue; il n'y a guère de
 pécheurs qui, en leur endurcissement même, n'aient en elle quelque étincelle de confiance; il n'y a pas même de
 diable dans les enfers qui, en la craignant, ne la respecte.
 \versenb{10} Après cela, il faut dire, en vérité, avec les saints:
@@ -337,7 +338,7 @@ que la dévotion à la Très Sainte Vierge est nécessaire au salut , et que c'e
 au sentiment même d'Œcolampade et de quelques autres hérétiques, de n'avoir pas de l'estime et de l'amour pour
 la Sainte Vierge, et qu'au contraire c'est une marque infaillible de prédestination de lui être entièrement et
 véritablement dévoué ou dévot.
-\versenb{41} Les figures et les paroles de l'Ancien et du Nouveau Testa ment le prouvent, les sentiments et les exemples
+\versenb{41} Les figures et les paroles de l'Ancien et du Nouveau Testament le prouvent, les sentiments et les exemples
 des saints le confirment, la raison et l'expérience l'apprennent et le démontrent; le diable même, et ses suppôts,
 pressés par la force de la vérité, ont été souvent obligés de l'avouer malgré eux. De tous ces passages des saints
 Pères et des Docteurs, dont j'ai fait un ample recueil pour prouver cette vérité, je n'en rapporte qu'un afin de n'être
@@ -399,7 +400,7 @@ civitatem}: Le Seigneur régnera dans Jacob et dans toute la terre; ils se conve
 faim comme des chiens, et ils iront autour de la ville pour trouver de quoi manger. Cette ville que les hommes
 tournoieront à la fin du monde pour se convertir, et pour rassasier la faim qu'ils auront de la justice, est la Très
 Sainte Vierge qui est appelée par le Saint-Esprit ville et cité de Dieu.
-\subsection{B. Nécessité de la dévotion à Marie particulièrement dans les derniers temps}
+\subsection{B. NÉCESSITÉ DE LA DÉVOTION À MARIE PARTICULIÈREMENT DANS LES DERNIERS TEMPS}
 \versenb{49} C'est par Marie que le salut du monde a commencé, et c'est par Marie qu'il doit être consommé. Marie n'a
 presque point paru dans le premier avènement de Jésus-Christ, afin que les hommes, encore peu instruits et
 éclairés sur la personne de son Fils, ne s'éloignassent de la vérité, en s'attachant trop fortement et trop
@@ -520,11 +521,11 @@ Voilà de grands hommes qui viendront, mais que Marie fera par ordre du Très-Ha
 celui des impies, idolâtres et mahométans. Mais quand et comment cela sera-t-il ?... Dieu seul le sait: c'est à nous
 de nous taire, de prier, soupirer et attendre: Exspectans exspectavi.
 \section{II. EN QUOI CONSISTE LA DÉVOTION À MARIE}
-\subsection{A. Vérités fondamentales de la dévotion à la Sainte Vierge}
+\subsection{A. VÉRITÉS FONDAMENTALES DE LA DÉVOTION À LA SAINTE VIERGE}
 \versenb{60} Ayant jusqu'ici dit quelque chose de la nécessité que nous avons de la dévotion à la Très Sainte Vierge, il faut
 dire en quoi consiste cette dévotion; ce que je ferai, Dieu aidant, après que j'aurai présupposé quelques vérités
 fondamentales, qui donneront jour à cette grande et solide dévotion que je veux découvrir.
-Jésus-Christ est la fin dernière de toutes nos dévotions
+\subsubsection{Jésus-Christ est la fin dernière de toutes nos dévotions}
 \versenb{61} Première vérité. Jésus-Christ notre Sauveur, vrai Dieu et vrai homme, doit être la fin dernière de toutes nos
 autres dévotions; autrement elles seraient fausses et trompeuses. Jésus Christ est l'alpha et l'oméga, le
 commencement et la fin de toutes choses. Nous ne travaillons, comme dit l'Apôtre, que pour rendre tout homme
@@ -612,7 +613,7 @@ perfectum; ardeat jugiter in ara cordis mei, ferveat in medullis meis, flagret i
 consummationis meae consummatus inveniar apud te. Amen."}
 J'ai voulu mettre en latin cette admirable oraison de saint Augustin, afin que les personnes qui entendent le latin la
 disent tous les jours pour demander l'amour de Jésus que nous cherchons par la divine Marie.
-Nous sommes à Jésus-Christ et à Marie en qualité d'esclaves.
+\subsubsection{Nous sommes à Jésus-Christ et à Marie en qualité d'esclaves.}
 \versenb{68} Seconde vérité. - Il faut conclure de ce que Jésus-Christ est à notre égard, que nous ne sommes point à nous,
 comme dit l'Apôtre, mais tout entiers à lui, comme ses membres et ses esclaves qu'il a achetés infiniment cher, par
 le prix de tout son sang. Avant le baptême, nous étions au diable comme ses esclaves; et le baptême nous a
@@ -698,7 +699,7 @@ pour Esther et que Salomon pour Bethsabée? Qui oserait le dire et même le pens
 Si on ne veut pas qu'on se dise esclave de la Sainte Vierge, qu'importe! Qu'on se fasse et qu'on se dise esclave
 de Jésus-Christ! C'est l'être de la Sainte Vierge, puisque Jésus est le fruit et la gloire de Marie. C'est ce qu'on fait
 parfaitement par la dévotion dont nous parlerons dans la suite.
-Nous devons nous vider de ce qu'il y a de mauvais en nous.
+\subsubsection{Nous devons nous vider de ce qu'il y a de mauvais en nous.}
 \versenb{78} Troisième vérité. - Nos meilleures actions sont ordinairement souillées et corrompues par le mauvais fond qui
 est en nous. Quand on met de l'eau nette et claire dans un vaisseau qui sent mauvais, ou du vin dans une pipe
 dont le dedans est gâté par un autre vin qu'il y a eu dedans, l'eau claire et le bon vin en est gâté et en prend
@@ -753,7 +754,7 @@ parfait.
 La pratique que je veux découvrir est un de ces secrets de grâce, inconnu du grand nombre des chrétiens, connu
 de peu de dévots, et pratiqué et goûté d'un bien plus petit nombre. Pour commencer à découvrir cette pratique,
 voici une quatrième vérité qui est une suite de la troisième.
-Nous avons besoin d'un médiateur auprès du Médiateur même.
+\subsubsection{Nous avons besoin d'un médiateur auprès du Médiateur même.}
 \versenb{83} Quatrième vérité. - Il est plus parfait, parce qu'il est plus humble, de n'approcher pas de Dieu par nous-mêmes, sans prendre un médiateur. Notre fond, comme je viens de montrer, étant si corrompu, si nous nous
 appuyons sur nos propres travaux, industries, préparations, pour arriver à Dieu et lui plaire, il est certain que toutes
 nos justices seront souillées, ou de peu de poids devant Dieu, pour l'engager à s'unir à nous et à nous exaucer.
@@ -790,7 +791,7 @@ monter pour aller à Dieu: le premier, qui est le plus proche de nous et le plus
 le second est Jésus Christ; et le troisième est Dieu le Père. Pour aller à Jésus, il faut aller à Marie, c'est notre
 médiatrice d'intercession; pour aller au Père éternel, il faut aller à Jésus, c'est notre médiateur de rédemption. Or,
 par la dévotion que je dirai ci-après, c'est l'ordre qu'on garde parfaitement.
-Il nous est très difficile de conserver les grâces et les trésors reçus de Dieu.
+\subsubsection{Il nous est très difficile de conserver les grâces et les trésors reçus de Dieu.}
 \versenb{87} Cinquième vérité. - Il est très difficile, vu notre faiblesse et fragilité, que nous conservions en nous les grâces
 et les trésors que nous avons reçus de Dieu:
 I° Parce que nous avons ce trésor, qui vaut mieux que le ciel et la terre, dans des vases fragiles: \latin{Habemus
@@ -818,7 +819,7 @@ milieu de ce torrent impétueux sans être entraînée, au milieu de cette mer o
 pillée par les pirates et corsaires, au milieu de cet air empesté, sans en être endommagée; c'est la Vierge
 uniquement fidèle dans laquelle le serpent n'a jamais eu de part, qui fait ce miracle à l'égard de ceux et celles [qui
 l'aiment] de la belle manière.
-\subsection{B. Marques de la véritable dévotion à Marie}
+\subsection{B. MARQUES DE LA VÉRITABLE DÉVOTION À MARIE}
 \versenb{90} Ces cinq vérités présupposées, il faut maintenant plus que jamais faire un bon choix de la vraie dévotion à la
 Très Sainte Vierge car il y a plus que jamais de fausses dévotions à la Sainte Vierge, qu'il est facile de prendre
 pour de véritables dévotions. Le diable, comme un faux monnayeur et un trompeur fin et expérimenté, a déjà tant
@@ -958,7 +959,7 @@ hypocrites, qui se mettent des confréries et portent les livrées de la Sainte 
 enfin des dévots intéressés, qui n'ont recours à la Sainte Vierge que pour être délivrés des maux du corps ou
 obtenir des biens temporels.
 
-2. Marques de la véritable dévotion à la Sainte Vierge
+\subsubsection{2- Marques de la véritable dévotion à la Sainte Vierge}
 \versenb{105} Après avoir découvert et condamné les fausses dévotions à la Sainte Vierge, il faut en peu de mots établir la
 véritable, qui est: I° intérieure; 2° tendre; 3° sainte; 4° constante et 5° désintéressée.
 
@@ -1028,7 +1029,7 @@ réduiront en pratique. Mais n'importe! mais tant mieux! Cette vue m'encourage e
 c'est-à-dire un grand escadron de braves et vaillants soldats de Jésus et de Marie, de l'un et l'autre sexe, pour
 combattre le monde, le diable et la nature corrompue, dans les temps périlleux qui vont arriver plus que jamais !
 \latin{Qui legit intelligat. Qui potest capere capiat.}
-\subsection{C. Principales pratiques de dévotion à Marie}
+\subsection{C. PRINCIPALES PRATIQUES DE DÉVOTION À MARIE}
 \versenb{115} Il y a plusieurs pratiques intérieures de la vraie dévotion à la Très Sainte Vierge, dont voici les principales en
 abrégé:
 I° L'honorer comme la digne Mère de Dieu, du culte d'hyperdulie, c'est-à-dire l'estimer et honorer par-dessus tous
@@ -1042,7 +1043,7 @@ expliquerons cette dernière pratique.
 I° S'enrôler dans ses confréries et entrer dans ses congrégations; 2° entrer dans les religions instituées en son
 honneur 3° publier ses louanges; 4° faire des aumônes, jeûnes et mortifications d'esprit ou de corps en son
 honneur 5° porter sur soi ses livrées, comme le saint rosaire ou le chapelet, le scapulaire ou la chaînette; 6° réciter
-avec attention, dévotion et modestie ou le saint rosaire composé de quinze dizaines d'Ave Maria en l'honneur des
+avec attention, dévotion et modestie ou le saint rosaire composé de quinze dizaines d'\latin{Ave Maria} en l'honneur des
 quinze principaux mystères de Jésus-Christ, ou le chapelet de cinq dizaines, qui est le tiers du rosaire, ou en
 l'honneur des cinq mystères joyeux, qui sont: l'Annonciation, la Visitation, la Nativité de Jésus-Christ, la Purification
 et le Recouvrement de Jésus-Christ au Temple; ou en l'honneur des cinq mystères douloureux, qui sont: l'Agonie
@@ -1059,8 +1060,8 @@ prières hymnes et cantiques de l'Église, comme le Salve Regina, l'Alma, l'Ave 
 coeli, selon les différents temps; ou l'Ave maris Stella, O gloriosa Domina, etc, ou le Magnificat ou quelques autres
 prières de dévotion, dont les livres sont pleins; 7° chanter et faire chanter en son honneur des cantiques spirituels;
 8° lui faire un nombre de génuflexions ou révérences, en lui disant par exemple, tous les matins, soixante ou cent
-fois: Ave Maria, Virgo Fidelis, pour obtenir de Dieu par elle la fidélité aux grâces de Dieu pendant la journée; et le
-soir: Ave Maria, Mater misericordiae, pour demander pardon à Dieu par elle des péchés qu'on a commis pendant
+fois: \latin{Ave Maria, Virgo Fidelis}, pour obtenir de Dieu par elle la fidélité aux grâces de Dieu pendant la journée; et le
+soir: \latin{Ave Maria, Mater misericordiae}, pour demander pardon à Dieu par elle des péchés qu'on a commis pendant
 la journée; 9° avoir soin de ses confréries, orner ses autels, couronner et embellir ses images; 10° porter et faire
 porter ses images en procession, et en porter une sur soi, comme une arme puissante contre le malin; 11° faire
 faire ses images ou son nom, et les placer ou dans les églises, ou dans les maisons, ou sur les portes et entrées
@@ -1077,7 +1078,7 @@ merveilleusement à sanctifier les âmes, pourvu qu'elles soient faites comme il
   \item avec modestie et composition de corps respectueuse et édifiante.
 \end{enumerate}
 
-\subsection{D. La parfaite pratique de dévotion à Marie}
+\subsection{D. LA PARFAITE PRATIQUE DE DÉVOTION À MARIE}
 \versenb{118} Après tout, je proteste hautement qu'ayant lu presque tous les livres qui traitent de la dévotion à la Très
 Sainte Vierge, et ayant conversé familièrement avec les plus saints et savants personnages de ces derniers
 temps, je n'ai point connu ni appris de pratique de dévotion envers la Sainte Vierge semblable à celle que je veux
@@ -1211,7 +1212,7 @@ rendre cette dévotion recommandable, les effets merveilleux qu'elle produit dan
 de cette dévotion.
 
 \subsubsection{2- Les motifs qui nous doivent rendre cette dévotion recommandable}
-Cette dévotion nous livre entièrement au service de Dieu
+\paragraph{Cette dévotion nous livre entièrement au service de Dieu}
 \versenb{135} Premier motif, qui nous montre l'excellence de cette consécration de soi-même à Jésus-Christ par les mains
 de Marie.
 Si on ne peut concevoir sur la terre d'emploi plus relevé que le service de Dieu; si le moindre serviteur de Dieu est
@@ -1239,9 +1240,7 @@ totum me comparavit}, dit saint Bernard: Il m'a gagné tout entier en se donnant
 justice et de la reconnaissance que nous lui donnions tout ce que nous pouvons lui donner? Il a été libéral envers
 nous le premier; soyons-le les seconds, et nous l'éprouverons pendant notre vie, à notre mort et dans toute
 l'éternité, encore plus libéral: \latin{Cum liberali liberalis erit}.
-Cette dévotion nous fait imiter l'exemple
-donné par Jésus-Christ et par Dieu lui-même,
-et pratiquer l'humilité.
+\paragraph{Cette dévotion nous fait imiter l'exemple donné par Jésus-Christ et par Dieu lui-même, et pratiquer l'humilité.}
 \versenb{139} Second motif, qui nous montre qu'il est juste en soi-même et avantageux au chrétien de se consacrer tout
 entier à la Très Sainte Vierge par cette pratique, afin de l'être plus parfaitement à Jésus-Christ.
 Ce bon Maître n'a pas dédaigné de se renfermer dans le sein de la Sainte Vierge comme un captif et un esclave
@@ -1296,7 +1295,7 @@ aime l'humilité du coeur! C'est à cette humilité qu'engage cette pratique de 
 n'approcher jamais par soi-même de Notre-Seigneur, quelque doux et miséricordieux qu'il soit, mais à se servir
 toujours de l'intercession de la Sainte Vierge, soit pour paraître devant Dieu, soit pour lui parler, soit pour
 l'approcher, soit pour lui offrir quelque chose, soit pour s'unir et consacrer à lui.
-Cette dévotion nous procure les bons offices de la Sainte Vierge.
+\paragraph{Cette dévotion nous procure les bons offices de la Sainte Vierge.}
 \versenb{144} Troisième motif. La Très Sainte Vierge, qui est une mère de douceur et de miséricorde, et qui ne se laisse
 jamais vaincre en amour et en libéralité, voyant qu'on se donne tout entier à elle pour l'honorer et la servir, en se
 dépouillant de ce qu'on a de plus cher pour l'en orner, se donne aussi tout entière et d'une manière ineffable à
@@ -1354,8 +1353,7 @@ nous, et devant lequel nous sommes moins que des atomes; ayant d'ailleurs une av
 jamais refusée; si industrieuse qu'elle sait tous les secrets de gagner le coeur de Dieu; si bonne et charitable
 qu'elle ne rebute personne quelque petit et méchant qu'il soit. Je rapporterai ci-après la figure véritable des vérités
 que je dis, dans l'histoire de Jacob et de Rébecca.
-Cette dévotion est un excellent moyen
-de procurer la plus grande gloire de Dieu.
+\paragraph{Cette dévotion est un excellent moyen de procurer la plus grande gloire de Dieu.}
 \versenb{151} Quatrième motif. Cette dévotion fidèlement pratiquée est un excellent moyen pour faire en sorte que la valeur
 de toutes nos bonnes oeuvres soit employée à la plus grande gloire de Dieu. Presque personne n'agit pour cette
 noble fin, quoiqu'on y soit obligé, soit parce qu'on ne connaît pas où est la plus grande gloire de Dieu, soit parce
@@ -1365,8 +1363,7 @@ de Dieu, un parfait serviteur de cette bonne Maîtresse, qui s'est tout consacre
 dire hardiment que la valeur de toutes ses actions, pensées et paroles, est employée à la plus grande gloire de
 Dieu, à moins qu'il ne révoque expressément son offrande. Peut-on trouver rien de plus consolant pour une âme
 qui aime Dieu d'un amour pur et sans intérêt, et qui prise plus la gloire de Dieu et ses intérêts que les siens ?
-Cette dévotion est un chemin pour arriver
-à l'union avec Notre-Seigneur.
+\paragraph{Cette dévotion est un chemin pour arriver à l'union avec Notre-Seigneur.}
 \versenb{152} Cinquième motif. Cette dévotion est un chemin aisé, court, parfait et assuré pour arriver à l'union avec Notre Seigneur, où consiste la perfection du chrétien.
 Cette dévotion est un chemin aisé.
 1° C'est un chemin aisé; c'est un chemin que Jésus-Christ a frayé en venant à nous, et où il n'y a aucun obstacle
@@ -1472,7 +1469,7 @@ mit en vogue cette dévotion par toute l'Espagne et l'Allemagne; et obtint, à l
 XV, de grandes indulgences à ceux qui la pratiqueraient.
 Le R. P. de Los Rios, de l'Ordre de Saint Augustin, s'appliqua avec son intime ami, le Père de Roias, à étendre
 cette dévotion par ses paroles et ses écrits dans l'Espagne et l'Allemagne; il composa un gros volume intitulé:
-Hierarchia Mariana, dans lequel il traite, avec autant de piété que d'érudition, de l'antiquité, de l'excellence et de la
+\latin{Hierarchia Mariana}, dans lequel il traite, avec autant de piété que d'érudition, de l'antiquité, de l'excellence et de la
 solidité de cette dévotion. Les R. Pères Théatins, au siècle dernier, établirent cette dévotion dans l'Italie, la Sicile et
 la Savoie.
 \versenb{161} Le R. Père Stanislas Phalacius, de la Compagnie de Jésus, avança merveilleusement cette dévotion dans la
@@ -1497,12 +1494,12 @@ au saint baptême; et c'est particulièrement par cette dernière raison qu'il f
 faisant voir que cette consécration à la Très Sainte Vierge, et à Jésus-Christ par ses mains, n'est autre chose
 qu'une parfaite rénovation des vœux ou promesses du baptême. Il dit plusieurs belles choses sur cette pratique,
 qu'on peut lire en ses ouvrages.
-[l63] On peut lire dans le livre de Mr Boudon les différents papes qui ont approuvé cette dévotion, les théologiens
+\versenb{163} On peut lire dans le livre de Mr Boudon les différents papes qui ont approuvé cette dévotion, les théologiens
 qui l'ont examinée, et les persécutions qu'elle a eues et vaincues, et les milliers de personnes qui l'ont embrassée,
 sans que jamais aucun pape l'ait condamnée; et on ne le pourrait pas faire sans renverser les fondements du
 christianisme. Il reste donc constant que cette dévotion n'est point nouvelle, et que si elle n'est pas commune, c'est
 qu'elle est trop précieuse pour être goûtée et pratiquée de tout le monde.
-[l64] 2° Cette dévotion est un moyen assuré pour aller à Jésus-Christ, parce que le propre de la Sainte Vierge est
+\versenb{164} 2° Cette dévotion est un moyen assuré pour aller à Jésus-Christ, parce que le propre de la Sainte Vierge est
 de nous conduire sûrement à Jésus-Christ, comme le propre de Jésus-Christ est de nous conduire sûrement au
 Père éternel. Et que les spirituels ne croient pas faussement que Marie leur soit un empêchement pour arriver à
 l'union divine. Car, serait-il possible que celle qui a trouvé grâce devant Dieu pour tout le monde en général et pour
@@ -1529,13 +1526,13 @@ esprit, c'est quand on est bien dévot à Marie, qu'on pense souvent à elle, et
 pensée d'un saint qui ajoute que, comme la respiration est une marque certaine que le corps n'est pas mort, la
 fréquente pensée et invocation amoureuse de Marie est une marque certaine que l'âme n'est pas morte par le
 péché.
-[l67] Comme c'est Marie seule, dit l'Église et le Saint-Esprit qui la conduit, qui a seule fait périr toutes les hérésies:
+\versenb{167} Comme c'est Marie seule, dit l'Église et le Saint-Esprit qui la conduit, qui a seule fait périr toutes les hérésies:
 Sola cunctas hoereses interemisti in universo mundo; quoique les critiques en grondent, jamais un fidèle dévot de
 Marie ne tombera dans l'hérésie ou l'illusion du moins formelle; il pourra bien errer matériellement, prendre le
 mensonge pour la vérité, et le malin esprit pour le bon, quoique plus difficilement qu'un autre; mais il connaîtra tôt
 ou tard sa faute et son erreur matérielle; et quand il la connaîtra, il ne s'opiniâtrera en aucune manière à croire et à
 soutenir ce qu'il avait cru véritable.
-[l68] Quiconque donc, sans crainte d'illusion, qui est ordinaire aux personnes d'oraison, veut avancer dans la voie
+\versenb{168} Quiconque donc, sans crainte d'illusion, qui est ordinaire aux personnes d'oraison, veut avancer dans la voie
 de la perfection et trouver sûrement et parfaitement Jésus-Christ, qu'il embrasse avec grand coeur, corde magno
 et animo volenti, cette dévotion à la Très Sainte Vierge, qu'il n'avait peut-être pas encore connue. Qu'il entre dans
 ce chemin excellent qui lui était inconnu et que je lui montre: Excellentiorem viam vobis demonstro. C'est un
@@ -1546,7 +1543,7 @@ Jésus-Christ. C'est un chemin parfait, où il n'y a aucune boue, aucune poussi�
 C'est enfin un chemin assuré, qui nous conduit à Jésus-Christ et à la vie éternelle d'une manière droite et assurée,
 sans détourner ni à droite, ni à gauche. Entrons donc dans ce chemin, et marchons-y jour et nuit, jusqu'à la
 plénitude de l'âge de Jésus-Christ.
-Cette dévotion donne une grande liberté intérieure.
+\paragraph{Cette dévotion donne une grande liberté intérieure.}
 \versenb{169} Sixième motif. Cette pratique de dévotion donne une grande liberté intérieure, qui est la liberté des enfants
 de Dieu, aux personnes qui la pratiquent fidèlement. Car, comme par cette dévotion on se rend esclave de Jésus Christ, en se consacrant tout à lui en cette qualité, ce bon Maître, pour récompense de la captivité amoureuse où
 on se met: I° ôte tout scrupule et crainte servile de l'âme qui n'est capable que de l'étrécir et captiver et
@@ -1614,9 +1611,9 @@ semble encore dire la même chose en des termes plus formels: La Sainte Vierge, 
 retenue dans la plénitude des saints; mais elle retient encore et garde les saints dans leur plénitude, afin qu'elle ne
 diminue point; elle empêche que leurs vertus ne se dissipent, que leurs mérites ne périssent, que leurs grâces ne
 se perdent, que les démons ne leur nuisent; enfin, elle empêche que Notre-Seigneur ne les châtie quand ils
-pèchent: Virgo non solum in plenitudine sanctorum detinetur, sed etiam in plenitudine sanctos detinet, ne plenitudo
+pèchent: \latin{Virgo non solum in plenitudine sanctorum detinetur, sed etiam in plenitudine sanctos detinet, ne plenitudo
 minuatur; detinet virtutes nefugiant; detinet merita ne pereant; detinet gratias ne effluant; detinet daemones ne
-noceant; detinet Filium ne peccatores percutiat (S. Bon., in Speculo B. V.)
+noceant; detinet Filium ne peccatores percutiat} (S. Bon., in Speculo B. V.)
 \versenb{175} La Très Sainte Vierge est la Vierge fidèle qui, par sa fidélité à Dieu, répare les pertes qu'a faites Eve l'infidèle
 par son infidélité, et qui obtient la fidélité à Dieu et la persévérance à ceux et celles qui s'attachent à elle. C'est
 pourquoi un saint la compare à une ancre ferme, qui les retient et les empêche de faire naufrage dans la mer
@@ -1682,7 +1679,7 @@ je combattrai et mettrai en fuite mes ennemis: car votre dévotion est une arme 
 qu'il veut sauver: Spem tuam habens, o Deipara, servabor; defensionem tuam possidens, non timebo; persequar
 inimicos meos et in fugam vertam, habens protectionem tuam et auxilium tuum; nam tibi devotum esse est arma
 quaedam salutis quae Deus his dat quos vult salvos fieri» (Joan. Damas., ser. de Ann~ntiat).
-3- Figure biblique de cette parfaite dévotion: Rébecca et Jacob
+\subsubsection{3- Figure biblique de cette parfaite dévotion: Rébecca et Jacob}
 \versenb{183} De toutes les vérités que je viens de décrire par rapport à la Très Sainte Vierge et à ses enfants et serviteurs,
 le Saint-Esprit nous donne, dans l'Écriture Sainte, une figure admirable dans l'histoire de Jacob, qui reçut la
 bénédiction de son père Isaac par les soins et l'industrie de Rébecca sa mère. La voici comme le Saint-Esprit la
@@ -1974,7 +1971,7 @@ de leurs ennemis: In plenitudine sanctos detinet: Elle retient les saints dans l
 jusqu'à la fin, comme nous avons vu.
 Voilà l'explication de cette grande et ancienne figure de la prédestination et réprobation, si inconnue et si pleine de
 mystères.
-4- Les effets merveilleux que cette dévotion produit
+\subsubsection{4- Les effets merveilleux que cette dévotion produit}
 dans une âme qui y est fidèle
 \versenb{213} Mon cher frère, soyez persuadé que si vous vous rendez fidèle aux pratiques intérieures et extérieures de
 cette dévotion, que je vous marquerai ci-après:
@@ -2092,7 +2089,7 @@ répète que Dieu. Si vous dites Marie, elle dit Dieu. Sainte Élisabeth loua Ma
 qu'elle avait cru; Marie, l'écho fidèle de Dieu, entonna: Magnificat anima mea Dominum: Mon âme glorifie le
 Seigneur. Ce que Marie a fait en cette occasion, elle le fait tous les jours; quand on la loue, on l'aime, on l'honore
 ou on lui donne, Dieu est loué, Dieu est aimé, Dieu est honoré, on donne à Dieu par Marie et en Marie.
-5- Pratiques particulières de cette dévotion
+\subsubsection{5- Pratiques particulières de cette dévotion}
 Pratiques extérieures.
 \versenb{226} Quoique l'essentiel de cette dévotion consiste dans l'intérieur, elle ne laisse pas d'avoir plusieurs pratiques
 extérieures qu'il ne faut pas négliger: Hæc oportuit facere et illa non omittere, soit parce que les pratiques
@@ -2153,9 +2150,8 @@ une femme couronnée de douze étoiles, revêtue du soleil, et tenant la lune so
 les interprètes, est la Très Sainte Vierge.
 \versenb{235} Il y a plusieurs manières de la bien dire qu'il serait trop long de rapporter; le Saint-Esprit les apprendra à ceux
 et celles qui seront les plus fidèles à cette dévotion. Cependant, pour la dire tout simplement, il faut d'abord dire:
-Dignare me laudare te, Virgo sacrata; da mihi virtutem contra hostes tuos; ensuite, on dira le Credo, puis un Pater,
-puis quatre Ave Maria et un Gloria Patri; encore un Pater, quatre Ave, un Gloria Patri; ainsi du reste. A la fin, on dit:
-Sub tuum prœsidium.
+\latin{Dignare me laudare te, Virgo sacrata; da mihi virtutem contra hostes tuos}; ensuite, on dira le \latin{Credo}, puis un \latin{Pater}, puis quatre \latin{Ave Maria} et un \latin{Gloria Patri}; encore un \latin{Pater}, quatre \latin{Ave}, un \latin{Gloria Patri}; ainsi du reste. A la fin, on dit: \latin{Sub tuum prœsidium.}
+
 Port de petites chaînes de fer.
 \versenb{236} Troisième pratique. Il est très louable, et très glorieux et très utile à ceux et celles qui se seront ainsi faits les
 esclaves de Jésus en Marie, qu'ils portent pour marque de leur esclavage amoureux de petites chaînes de fer
@@ -2263,15 +2259,15 @@ Jésus-Christ a parfaitement calmé son Père, irrité contre les hommes; qu'il 
 péché lui avait ravie, et que par le sacrifice qu'il y a fait de sa volonté et de lui-même, il lui a donné plus de gloire
 que jamais ne lui avaient donné tous les sacrifices de l'ancienne loi, et enfin qu'il lui a donné une gloire infinie, que
 jamais il n'avait encore reçue de l'homme.
-Grande dévotion à l'Ave Maria et au chapelet.
-\versenb{249} Cinquième pratique. Ils auront une grande dévotion à dire l'Ave Maria, ou la Salutation angélique dont peu de
+Grande dévotion à l'\latin{Ave Maria} et au chapelet.
+\versenb{249} Cinquième pratique. Ils auront une grande dévotion à dire l'\latin{Ave Maria}, ou la Salutation angélique dont peu de
 chrétiens, quoique éclairés, connaissent le prix, le mérite, l'excellence et la nécessité. Il a fallu que la Sainte Vierge
 ait apparu plu sieurs fois à de grands saints fort éclairés pour leur en montrer le mérite, comme à saint Dominique,
 à saint Jean de Capistran, au bienheureux Alain de la Roche. Ils ont composé des livres entiers des merveilles et
 de l'efficace de cette prière pour convertir les âmes; ils ont publié hautement, ils ont prêché publiquement que le
-salut du monde ayant commencé par l'Ave Maria, le salut de chacun en particulier était attaché à cette prière; que
+salut du monde ayant commencé par l'\latin{Ave Maria}, le salut de chacun en particulier était attaché à cette prière; que
 c'est cette prière qui a fait porter à la terre sèche et stérile le fruit de vie, et que c'est cette même prière, bien dite,
-qui doit faire germer dans nos âmes la parole de Dieu et porter le fruit de vie, Jésus-Christ; que l'Ave Maria est une
+qui doit faire germer dans nos âmes la parole de Dieu et porter le fruit de vie, Jésus-Christ; que l'\latin{Ave Maria} est une
 rosée céleste qui arrose la terre, c'est-à-dire l'âme pour lui faire porter son fruit en son temps; et qu'une âme qui
 n'est pas arrosée par cette prière ou rosée céleste ne porte point de fruit et ne donne que des ronces et des
 épines, et est prête d'être maudite.
@@ -2284,28 +2280,27 @@ angelicam, totius mundi reparativam. (Lib. de Dignit. cap. II) 5. Voilà des par
 qu'on aurait peine à croire si nous n'en avions pour garants ce saint homme et saint Dominique devant lui, et
 depuis plusieurs grands personnages, avec l'expérience de plusieurs siècles. Car on a toujours remarqué que
 ceux qui portent la marque de la réprobation, comme tous les hérétiques et impies, orgueilleux et mondains,
-haïssent ou méprisent l'Ave Maria et le chapelet. Les hérétiques apprennent et récitent encore le Pater, mais non
-pas l'Ave Maria, ni le chapelet; c'est leur horreur: ils porteraient plutôt un serpent sur eux qu'un chapelet. Les
+haïssent ou méprisent l'\latin{Ave Maria} et le chapelet. Les hérétiques apprennent et récitent encore le Pater, mais non
+pas l'\latin{Ave Maria}, ni le chapelet; c'est leur horreur: ils porteraient plutôt un serpent sur eux qu'un chapelet. Les
 orgueilleux aussi, quoique catholiques, comme ayant les mêmes inclinations que leur père Lucifer, méprisent ou
-n'ont que de l'indifférence pour l'Ave Maria, et regardent le chapelet comme une dévotion de femmelette qui n'est
+n'ont que de l'indifférence pour l'\latin{Ave Maria}, et regardent le chapelet comme une dévotion de femmelette qui n'est
 bonne que pour les ignorants et ceux qui ne savent point lire. Au contraire, on a vu, par expérience, que ceux et
-celles qui ont d'ailleurs de grandes marques de prédestination aiment, goûtent et récitent avec plaisir l'Ave Maria;
+celles qui ont d'ailleurs de grandes marques de prédestination aiment, goûtent et récitent avec plaisir l'\latin{Ave Maria};
 et que plus ils sont à Dieu, et plus ils aiment cette prière. C'est ce que la Sainte Vierge dit aussi au bienheureux
 Alain, en suite des paroles que je viens de citer.
 \versenb{251} Je ne sais comment cela se fait ni pourquoi, mais cela est pourtant vrai; et je n'ai pas un meilleur secret, pour
-connaître si une personne est de Dieu, que d'examiner si elle aime à dire l'Ave Maria et le chapelet. Je dis: elle
+connaître si une personne est de Dieu, que d'examiner si elle aime à dire l'\latin{Ave Maria} et le chapelet. Je dis: elle
 aime; car il peut arriver qu'une [personne] soit dans l'impuissance naturelle ou même surnaturelle de le dire, mais
 elle l'aime toujours et elle l'inspire aux autres.
-\versenb{252} âMES PRÉDESTINÉES, ESCLAVES DE JÉSUS EN MARIE, apprenez que l'Ave Maria est la plus belle de
+\versenb{252} âMES PRÉDESTINÉES, ESCLAVES DE JÉSUS EN MARIE, apprenez que l'\latin{Ave Maria} est la plus belle de
 toutes les prières après le Pater; c'est le plus parfait compliment que vous puissiez faire à Marie, puisque c'est le
 compliment que le Très-Haut lui envoya faire par un archange pour gagner son cœur; et il fut si puissant sur son
 cœur, par les charmes secrets dont il est plein, que Marie donna son consentement à l'Incarnation du Verbe,
 malgré sa profonde humilité. C'est par ce compliment aussi que vous gagnerez infailliblement son coeur, si vous le
 dites comme il faut.
-\versenb{253} L'Ave Maria bien dit, c'est-à-dire avec attention, dévotion et modestie, est, selon les saints, l'ennemi du
+\versenb{253} L'\latin{Ave Maria} bien dit, c'est-à-dire avec attention, dévotion et modestie, est, selon les saints, l'ennemi du
 diable, qui le met en fuite, et le marteau qui l'écrase, la sanctification de l'âme, la joie des anges, la mélodie des
-prédestinés, le cantique du Nouveau Testament, le plaisir de Marie et la gloire de la Très Sainte Trinité. L'Ave
-Maria est une rosée céleste qui rend l'âme féconde; c'est un baiser chaste et amoureux qu'on donne à Marie, c'est
+prédestinés, le cantique du Nouveau Testament, le plaisir de Marie et la gloire de la Très Sainte Trinité. L'\latin{Ave Maria} est une rosée céleste qui rend l'âme féconde; c'est un baiser chaste et amoureux qu'on donne à Marie, c'est
 une rose vermeille qu'on lui présente, c'est une perle précieuse qu'on lui offre, c'est un coup d'ambroisie et de
 nectar divin qu'on lui donne. Toutes ces comparaisons sont des saints.
 \versenb{254} Je vous prie donc instamment, par l'amour que je vous porte en Jésus et en Marie, de ne vous pas contenter
@@ -2431,7 +2426,7 @@ GLOIRE A JÉSUS EN MARIE!
 GLOIRE A MARIE EN JÉSUS!
 GLOIRE A DIEU SEUL !
 
-\section{[SUPPLÉMENT] MANIERE DE PRATIQUER CETTE DÉVOTION DANS LA SAINTE COMMUNION}
+\section{MANIERE DE PRATIQUER CETTE DÉVOTION DANS LA SAINTE COMMUNION}
 \subsection{AVANT LA COMMUNION}
 \versenb{266} 1° Vous vous humilierez profondément devant Dieu. 2° Vous renoncerez à votre fond tout corrompu, et à vos
 dispositions, quelque bonnes que votre amour-propre vous les fasse voir. 3° Vous renouvellerez votre
@@ -2446,25 +2441,25 @@ pour l'honorer, mais que, par la sainte communion, vous voulez lui faire le mêm
 fait, et qu'elle en sera plus honorée que si vous lui donniez tous les biens du monde; et qu'enfin Jésus, qui l'aime
 uniquement, désire encore prendre en elle sa complaisance et son repos, quoique dans votre âme plus sale et
 plus pauvre que l'étable, où Jésus ne fit pas difficulté de venir parce qu'elle y était. Vous lui demanderez son coeur
-par ces tendres paroles: Accipio te in mea omnia. Praebe mihi cor tuum, o Maria!
+par ces tendres paroles: \latin{Accipio te in mea omnia. Praebe mihi cor tuum, o Maria!}
 
 \subsection{DANS LA COMMUNION}
-\versenb{267} 2° Prêt de recevoir Jésus-Christ, après le Pater, vous lui direz trois fois: Domine, non sum dignus, etc.,
+\versenb{267} 2° Prêt de recevoir Jésus-Christ, après le Pater, vous lui direz trois fois: \latin{Domine, non sum dignus}, etc.,
 comme si vous disiez, la première fois, au Père éternel, que vous n'êtes pas digne, à cause de vos mauvaises
 pensées et ingratitudes à l'égard d'un si bon Père, de recevoir son Fils unique, mais que voici Marie, sa servante:
 Ecce ancilla Domini, qui fait pour vous, et qui vous donne une confiance et espérance singulière auprès de sa
 Majesté: Quoniam singulariter in spe constituisti me.
-\versenb{268} Vous direz au Fils: Domine, non sum dignus, etc., que vous n'êtes pas digne de le recevoir à cause de vos
+\versenb{268} Vous direz au Fils: \latin{Domine, non sum dignus}, etc., que vous n'êtes pas digne de le recevoir à cause de vos
 paroles inutiles et mauvaises et de votre infidélité en son service; mais cependant que vous le priez d'avoir pitié de
 vous parce que vous l'introduirez dans la maison de sa propre Mère et de la vôtre, et que vous ne le laisserez
-point aller qu'il ne soit venu loger chez elle: Tenui eum, nec dimittam, donec introducam illum in domum matris
-meae, et in cubiculum genitricis meae (Cant., 3. 4). Vous le prierez de se lever et de venir dans le lieu de son
-repos et dans l'arche de sa sanctification: Surge, Domine, in requiem tuam, tu et arca sanctificationis tuae. [Vous
+point aller qu'il ne soit venu loger chez elle: \latin{Tenui eum, nec dimittam, donec introducam illum in domum matris
+meae, et in cubiculum genitricis meae} (Cant., 3. 4). Vous le prierez de se lever et de venir dans le lieu de son
+repos et dans l'arche de sa sanctification: \latin{Surge, Domine, in requiem tuam, tu et arca sanctificationis tuae}. [Vous
 lui direz] que vous ne mettez aucunement votre confiance dans vos mérites, votre force et vos préparations,
 comme Esaü, mais dans celles de Marie, votre chère Mère, comme le petit Jacob dans les soins de Rébecca; que,
 tout pécheur et Esaü que vous êtes, vous osez vous approcher de sa sainteté, appuyé et orné des mérites et
 vertus de sa sainte Mère.
-\versenb{269} Vous direz au Saint-Esprit: Domine, non sum dignus, que vous n'êtes pas digne de recevoir le chef-d'oeuvre
+\versenb{269} Vous direz au Saint-Esprit: \latin{Domine, non sum dignus}, que vous n'êtes pas digne de recevoir le chef-d'oeuvre
 de sa charité, à cause de la tiédeur et iniquité de vos actions et de vos résistances à ses inspirations, mais que
 toute votre confiance est Marie, sa fidèle Épouse; et direz avec saint Bernard: Haec maxima mea fiducia; haec tota
 ratio spei meae. Vous pourrez même le prier de survenir encore en Marie, son Épouse indissoluble; que son sein
